@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <h1>Contacta con quien quieras lol</h1>
+            <hr>
+
+            <form action="/contacto" method="POST">
+                <div class="mb-3">
+                    <label for="emailInput" class="form-label">Dirección de email donde se enviará</label>
+                    <input type="email" class="form-control" id="emailInput" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="subjectInput" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="subjectInput" name="subject">
+                </div>
+                <div class="mb-3">
+                    <label for="messageInput" class="form-label">Mensaje</label>
+                    <input type="text" class="form-control" id="messageInput" name="message">
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-dark btn-block">Enviar correo</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

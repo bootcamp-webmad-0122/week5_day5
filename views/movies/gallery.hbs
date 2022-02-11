@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Galería de películas <a href="/peliculas/crear" class="btn btn-dark btn-sm">Crear una película</a></h1>
+    <hr>
+    <div class="row">
+
+        {{#each movies}}
+
+        <div class="col-md-3">
+            <article class="movie-card">
+                <img src="{{imageUrl}}" alt="{{title}}" class="img-fluid">
+                <h3>{{title}}</h3>
+                <p>{{year}}</p>
+            </article>
+        </div>
+
+        {{/each}}
+
+    </div>
+</div>

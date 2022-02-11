@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  margin-bottom: 60px;
+}
+
+.movie-card img{
+  height: 400px;
+  object-fit: cover;
+}
