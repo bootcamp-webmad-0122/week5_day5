@@ -6,7 +6,7 @@
 
 
 
-## Main points: file upload (local)
+## Main points: file upload (CDN)
 
 - Los formularios con controles de tipo `file` requeren el atributo `enctype="multipart/form-data"` para procesar el envío de archivos.
 
